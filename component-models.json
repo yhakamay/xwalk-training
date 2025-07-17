@@ -159,32 +159,24 @@
         "valueType": "string"
       },
       {
-        "component": "container",
-        "label": "Container",
-        "name": "container",
+        "component": "aem-content",
+        "name": "link",
+        "value": "",
+        "label": "Link",
         "valueType": "string",
-        "fields": [
-          {
-            "component": "aem-content",
-            "name": "link",
-            "value": "",
-            "label": "Link",
-            "valueType": "string",
-            "validation": {
-              "rootPath": "/content/xwalk-training"
-            }
-          },
-          {
-            "component": "text",
-            "name": "linkText",
-            "label": "Link Text"
-          },
-          {
-            "component": "text",
-            "name": "linkTitle",
-            "label": "Link Title"
-          }
-        ]
+        "validation": {
+          "rootPath": "/content/xwalk-training"
+        }
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "label": "Link Text"
+      },
+      {
+        "component": "text",
+        "name": "linkTitle",
+        "label": "Link Title"
       }
     ]
   },
