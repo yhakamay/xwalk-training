@@ -157,6 +157,29 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "container",
+        "label": "Container",
+        "name": "container",
+        "valueType": "string",
+        "fields": [
+          {
+            "component": "aem-content",
+            "name": "link",
+            "label": "Link"
+          },
+          {
+            "component": "text",
+            "name": "linkText",
+            "label": "Link Text"
+          },
+          {
+            "component": "text",
+            "name": "linkTitle",
+            "label": "Link Title"
+          }
+        ]
       }
     ]
   },
