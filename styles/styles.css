@@ -24,9 +24,10 @@
   --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
 
   /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  --body-font-size-m: 1rem;
+  --body-font-size-s: .875rem;
+  --body-font-size-xs: .75rem;
+  --body-font-size-xxs: .625rem;
 
   /* heading sizes */
   --heading-font-size-xxl: 55px;
