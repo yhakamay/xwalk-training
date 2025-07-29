@@ -178,7 +178,9 @@
       {
         "component": "text",
         "name": "linkTitle",
-        "label": "Link Title"
+        "label": "Link Title",
+        "value": "",
+        "valueType": "string"
       }
     ]
   },
