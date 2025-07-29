@@ -18,7 +18,7 @@
   margin: 16px;
 }
 
-/* 4行まで表示して省略 */
+/* Display up to 4 lines and truncate */
 .cards .cards-card-body p,
 .cards .cards-card-body div {
   display: -webkit-box;
