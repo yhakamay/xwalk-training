@@ -157,6 +157,30 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "link",
+        "value": "",
+        "label": "Link",
+        "valueType": "string",
+        "validation": {
+          "rootPath": "/content/xwalk-training"
+        }
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "value": "",
+        "valueType": "string",
+        "label": "Link Text"
+      },
+      {
+        "component": "text",
+        "name": "linkTitle",
+        "label": "Link Title",
+        "value": "",
+        "valueType": "string"
       }
     ]
   },

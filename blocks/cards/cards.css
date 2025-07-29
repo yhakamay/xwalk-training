@@ -18,6 +18,22 @@
   margin: 16px;
 }
 
+/* Display up to 4 lines and truncate */
+.cards .cards-card-body p,
+.cards .cards-card-body div {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+
+.cards .cards-card-body *:last-child {
+  margin-bottom: 0;
+}
+
 .cards .cards-card-image {
   line-height: 0;
 }

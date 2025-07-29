@@ -1,0 +1,45 @@
+{
+  // プロジェクト設定を優先（保存時フォーマットはオン）
+  "editor.formatOnSave": true,
+
+  // EditorConfig を有効化
+  "editorconfig.generateAuto": false,
+
+  // 保存時のコードアクション（linter の自動修正も実行）
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+
+  // ESLint 設定
+  "eslint.enable": true,
+  "eslint.validate": ["javascript", "json"],
+
+  // Stylelint 設定
+  "stylelint.enable": true,
+  "stylelint.validate": ["css"],
+
+  // ファイルタイプごとの設定（EditorConfig の設定と整合性を保つ）
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint" // プロジェクトのESLint設定を使用
+  },
+  "[css]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "stylelint.vscode-stylelint" // プロジェクトのStylelint設定を使用
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint" // JSONもESLintでフォーマット
+  },
+
+  // 改行コードの設定（ESLint ルールに合わせて Unix）
+  "files.eol": "\n",
+
+  // プロジェクト設定を優先するために、ユーザー設定よりも強制
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false
+}
